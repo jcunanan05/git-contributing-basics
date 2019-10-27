@@ -27,7 +27,7 @@ Triangular workflow is a process that you push changes on your copy of the repos
 
 ## Git Crash Course
 
-To be able to contribute to other repositories in Github, you don't need to be a git-fu master. You can even contribute to this repository! But before getting started, you need at least to familiarize yourself with these terms/commands.
+To be able to contribute to other repositories in Github, you don't need to be a git-fu master. You can even contribute to this repository! But before getting started, you need at least to familiarize yourself with these terms or commands.
 
 ### `git clone repositoryUrl`
 
@@ -35,7 +35,49 @@ Cloning means you're downloading the codes from the original source to your comp
 
 ### Fork
 
-![Fork Button](/images/fork)
+![Fork Button](images/fork.png)
 Fork button on github
 
 Forking is making a copy of the original source code on your account. Because the user has the original codebase, you can't push code without the user's approval. We need to fork the repository to make our own changes.
+
+### git checkout
+
+Checkout is to switch to a new branch, a separate timeline.
+
+### Remote
+
+The url where our code lives in the internet. For our demo, it's on Github.
+
+### Push / Pull
+
+Uploading or downloading code changes from a remote.
+
+### Pull Request
+
+This is you, the contributor, requesting code changes from the maintainer's or author's soure code.
+
+### Conflicts
+
+Code changes that happens on the same file that confuses git which to accept, so the user needs to manually change files and save, and commit again.
+
+### Rebase
+
+This is a git command to fix or clean your timelines (or commits). It has many uses, but for our tutorial, this is used so we have a clean and updated timeline when we submit a pull request.
+
+### Commit
+
+Think of commit as you're making a save point of your progress, and you can come back to that save point later.
+
+Ok, we're all set. Let's go the tutorial on how to make a clean timeline pull request.
+
+## Tutorial
+
+### Setup
+
+First things first, you need to setup your git and github account. This will be another topic, but here's a good tutorial about [how to setup your git and github](https://kbroman.org/github_tutorial/pages/first_time.html).
+
+Next, we need to find a repository to contribute to. In this tutorial, you can go to [this tutorial's repository.](https://github.com/jcunanan05/git-contributing-basics)
+
+We need to clone the repository. At the right side of the screen, you need to click that green button that says _Clone or Download_, and copy the url there.
+
+![Clone or download button](images/clone-button.png)
