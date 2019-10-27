@@ -17,7 +17,7 @@ New to contributing to open-source? No problem. We're going to go through crash 
 - Commit your changes by running `git commit`
 - Before you submit your pull request, _checkout_ to master/development branch and run `git pull`. This will pull the changes that is made on the original author's develoment branch.
 - Checkout on your the branch you're working on, and run `git rebase development`. If there are code conflicts, fix the code conflicts, and save the file. Run `git rebase --continue` to proceed.
-- run `git push -u origin branchWhereYouCode` This will set a new branch on your forked github repository
+- run `git push --set-upstream origin branchWhereYouCode` This will set a new branch on your forked github repository
 - Now submit a pull request on the author's development branch from the branch where you code.
 - Wait to be approved. Congrats!
 
